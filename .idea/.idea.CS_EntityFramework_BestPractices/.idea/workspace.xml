@@ -9,16 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLib/Migrations/20231007182920_secondmigration.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccessLib/Migrations/20231007182920_secondmigration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS_EF_App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CS_EF_App/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLib/DataAccess/PeopleContextSqlite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/DataAccess/PeopleContextSqlite.cs" afterDir="false" />
+    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="Rolled back the useless migrations so it starts from initialMigration">
+      <change afterPath="$PROJECT_DIR$/DataAccessLib/Migrations/20231007190056_addedAgeToPerson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS_EF_App/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CS_EF_App/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccessLib/Migrations/PeopleContextSqliteModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Migrations/PeopleContextSqliteModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLib/Models/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Models/Address.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLib/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Models/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +26,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eeaf281031b3ffe3d44a91e71a5808c8d236a9caabbb947871e6dc415bd8b/Migration.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
@@ -118,14 +122,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696702386136</updated>
-      <workItem from="1696702386137" duration="1376000" />
+      <workItem from="1696702386137" duration="6542000" />
     </task>
+    <task id="LOCAL-00001" summary="Rolled back the useless migrations so it starts from initialMigration">
+      <option name="closed" value="true" />
+      <created>1696704498862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696704498862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Rolled back the useless migrations so it starts from initialMigration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rolled back the useless migrations so it starts from initialMigration" />
   </component>
 </project>
