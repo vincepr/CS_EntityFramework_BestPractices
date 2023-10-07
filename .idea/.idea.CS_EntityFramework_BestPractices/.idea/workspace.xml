@@ -9,14 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="Rolled back the useless migrations so it starts from initialMigration">
-      <change afterPath="$PROJECT_DIR$/DataAccessLib/Migrations/20231007190056_addedAgeToPerson.cs" afterDir="false" />
+    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="annotations">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS_EF_App/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CS_EF_App/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLib/Migrations/PeopleContextSqliteModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Migrations/PeopleContextSqliteModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLib/Models/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Models/Address.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLib/Models/Email.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Models/Email.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccessLib/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696702386136</updated>
-      <workItem from="1696702386137" duration="6542000" />
+      <workItem from="1696702386137" duration="7236000" />
     </task>
     <task id="LOCAL-00001" summary="Rolled back the useless migrations so it starts from initialMigration">
       <option name="closed" value="true" />
@@ -132,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696704498862</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="annotations">
+      <option name="closed" value="true" />
+      <created>1696709421555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696709421555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Rolled back the useless migrations so it starts from initialMigration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rolled back the useless migrations so it starts from initialMigration" />
+    <MESSAGE value="annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="annotations" />
   </component>
 </project>

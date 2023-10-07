@@ -1,6 +1,6 @@
 # Entity Framework Best Practices
 working trough https://www.youtube.com/watch?v=qkJ9keBmQWo and taking notes along the way.
-
+currently at 1:11:11
 
 ## Setup
 1. install the EntityFramework Dependencies
