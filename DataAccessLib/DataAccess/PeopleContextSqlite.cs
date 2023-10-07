@@ -12,8 +12,8 @@ namespace DataAccessLib.DataAccess
     {
         public PeopleContextSqlite(DbContextOptions<PeopleContextSqlite> options) : base(options) {}
 
-        public List<Person> Persons { get; set; }
-        public List<Address> Addresses { get; set; }
-        public List<Email> Emails { get; set; }
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Email> Emails { get; set; }
     }
 }

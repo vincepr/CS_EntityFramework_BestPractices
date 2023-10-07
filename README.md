@@ -17,9 +17,9 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ```csharp
 public class PeopleContextSqlite : DbContext{
     public PeopleContextSqlite(DbContextOptions<PeopleContextSqlite> options) : base(options) {}
-    public List<Person> Persons { get; set; }
-    public List<Address> Addresses { get; set; }
-    public List<Email> Emails { get; set; }
+    public DbSet<Person> Persons { get; set; }
+    public DbSet<Address> Addresses { get; set; }
+    public DbSet<Email> Emails { get; set; }
 }
 ```
 
@@ -34,7 +34,7 @@ public class PeopleContextSqlite : DbContext{
 4. Then Reference/Use our Custom-DbContext in our Program.cs
 ```csharp
 builder.Services.AddDbContext<PeopleContextSqlite>(options =>{
-    options.UseSqlite("Date Source=EFlocalDB.db");  // just a local sqlite file that will get created for us for development
+    options.UseSqlite("Data Source=EFlocalDB.db");  // just a local sqlite file that will get created for us for development
 });
 ```
 
@@ -44,5 +44,11 @@ builder.Services.AddDbContext<PeopleContextSqlite>(options =>{
 	- Since our Startup Project is in another folder we have to point to it:
 ```
 dotnet ef --startup-project ../CS_EF_App/ migrations add initialMigration
-dotnet ef database update
+dotnet ef --startup-project ../CS_EF_App/ database update
+```
+
+Alternatively we can from our root path (solution folder that holds both projects) work like this:
+```
+dotnet ef --project ./DataAccessLib --startup-project ./CS_EF_App/ migrations add initialMigration
+dotnet ef --project ./DataAccessLib --startup-project ./CS_EF_App/ database update
 ```

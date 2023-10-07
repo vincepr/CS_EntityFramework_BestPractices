@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<PeopleContextSqlite>(options =>{
-    options.UseSqlite("Date Source=EFlocalDB.db");  // just a local sqlite file that will get created for us for development
+    options.UseSqlite("Data Source=EFlocalDB.db");  // just a local sqlite file that will get created for us for development
 });
 
 var app = builder.Build();
