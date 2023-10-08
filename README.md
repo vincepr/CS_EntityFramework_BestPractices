@@ -227,8 +227,8 @@ private void WhereClause() {
 		.ToList()
 		.Where(p => ApprovedAge(p.Age));
 	
-	Console.WriteLine( peopleGOOD.Count() );
-	Console.WriteLine( peopleBAD.Count() );
+	Console.WriteLine( peopleGOOD.Count() ); // just fetched the 44 targeted people
+	Console.WriteLine( peopleBAD.Count() );  // this fetched all 100 potentially 1000s of people then filtered them down to 44
 }
 
 private bool ApprovedAge(int age) {
