@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CS_EF_App/generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filesGetsCopied.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS_EF_App/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CS_EF_App/Pages/Index.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS_EntityFramework_BestPractices.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CS_EntityFramework_BestPractices.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="updated readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696702386136</updated>
       <workItem from="1696702386137" duration="7686000" />
-      <workItem from="1696758100661" duration="9743000" />
+      <workItem from="1696758100661" duration="10089000" />
     </task>
     <task id="LOCAL-00001" summary="Rolled back the useless migrations so it starts from initialMigration">
       <option name="closed" value="true" />
@@ -148,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696710229074</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="done">
+      <option name="closed" value="true" />
+      <created>1696768300564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696768300564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated readme">
+      <option name="closed" value="true" />
+      <created>1696768323723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696768323723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +169,9 @@
     <MESSAGE value="Rolled back the useless migrations so it starts from initialMigration" />
     <MESSAGE value="annotations" />
     <MESSAGE value="done for the day" />
-    <option name="LAST_COMMIT_MESSAGE" value="done for the day" />
+    <MESSAGE value="done" />
+    <MESSAGE value="updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
