@@ -9,10 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="annotations">
+    <list default="true" id="89d67115-36aa-4d0c-b9bf-b778a52902f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CS_EF_App/generated.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filesGetsCopied.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS_EntityFramework_BestPractices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLib/Models/Email.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Models/Email.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLib/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccessLib/Models/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS_EF_App/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CS_EF_App/Pages/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS_EntityFramework_BestPractices.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CS_EntityFramework_BestPractices.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +35,37 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2WRjeCf45SzBjfjaOttpLW56Ssc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\vince\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\vince\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\vince\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\vince\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\vince\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\vince\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CS_EF_App: http">
     <configuration name="CS_EF_App: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CS_EF_App/CS_EF_App.csproj" />
@@ -118,7 +121,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696702386136</updated>
-      <workItem from="1696702386137" duration="7236000" />
+      <workItem from="1696702386137" duration="7686000" />
+      <workItem from="1696758100661" duration="9743000" />
     </task>
     <task id="LOCAL-00001" summary="Rolled back the useless migrations so it starts from initialMigration">
       <option name="closed" value="true" />
@@ -136,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696709421555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done for the day">
+      <option name="closed" value="true" />
+      <created>1696710229074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696710229074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +159,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Rolled back the useless migrations so it starts from initialMigration" />
     <MESSAGE value="annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="annotations" />
+    <MESSAGE value="done for the day" />
+    <option name="LAST_COMMIT_MESSAGE" value="done for the day" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#DataAccessLib.Models.Person" memberName="EmailAddresses" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
